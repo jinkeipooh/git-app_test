@@ -1,3 +1,4 @@
 class TestsController < ApplicationController
-  get '/', 'tests#index'
+  def index
+  end
 end
